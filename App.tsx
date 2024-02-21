@@ -4,7 +4,7 @@ import {Text, View} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/AntDesign';
 import FontAweSome from 'react-native-vector-icons/FontAwesome';
-//import StyleSheet from 'styled-components/dist/sheet/Sheet';
+
 const App = () => {
   const textInputRef = useRef<TextInput | null>(null);
   const [searchTest, setSearchTest] = useState('');
